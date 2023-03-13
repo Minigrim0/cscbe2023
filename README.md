@@ -17,3 +17,25 @@
 
 # Misc
 * [X] [Signals](misc/signals/README.md)
+
+# Mobile
+* [ ] [Squareguard-1]() 😭
+* [ ] [Squareguard-2]() 😭
+
+# Programming
+* [X] [Tell Me What You See](programming/tell-me-what-you-see/README.md)
+* [X] [Oh See Here](programming/oh-see-here/README.md)
+* [X] [Food Truck Recipes](programming/food-truck-recipes/README.md)
+
+# Reverse
+* [X] [What The password](reverse/what-the-password/README.md)
+
+# Stego
+* [ ] [Amulet Of Deletion]() 😭
+* [ ] [Running In The Metaverse]() 😭
+
+# Web
+* [X] [Beep Boop](web/beep-boop/README.md)
+* [X] [90's Chat](web/90-chat/README.md)
+* [X] [Don't Spy Ne](web/dont-spy-me/README.md)
+* [X] [Biligual Extreme](web/bilingual-extreme/README.md)
