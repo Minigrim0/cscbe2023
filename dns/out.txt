@@ -1,0 +1,214 @@
+
+; <<>> DiG 9.18.12 <<>> +cmd +norecurse @18.202.130.238 www mail mx a.mx smtp pop imap blog en ftp ssh login chaos txt fr nl hostname.bind
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 41153
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f892f101691640ca1144bd2299aae3d9e2a (good)
+;; QUESTION SECTION:
+;www.				IN	A
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 60
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 62361
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f89fb0e7966640ca11426b9fc4616e76161 (good)
+;; QUESTION SECTION:
+;mail.				IN	MX
+
+;; Query time: 53 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 61
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 63962
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f8974b353f5640ca11495ccaf3478d3244e (good)
+;; QUESTION SECTION:
+;a.mx.				IN	A
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 61
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 51807
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f893d4b615a640ca114a8d4a6d73f68bf56 (good)
+;; QUESTION SECTION:
+;smtp.				IN	A
+
+;; Query time: 60 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 61
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 33121
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f89bf6fee59640ca11449ea10ebf42f4dc7 (good)
+;; QUESTION SECTION:
+;pop.				IN	A
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 60
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 30317
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f895d2608d3640ca1142d01fb8c64aa0d69 (good)
+;; QUESTION SECTION:
+;imap.				IN	A
+
+;; Query time: 46 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 61
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 18210
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f894dc41113640ca1145e6ec8514f29432e (good)
+;; QUESTION SECTION:
+;blog.				IN	A
+
+;; Query time: 60 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 61
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 51050
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f89148814af640ca114f52ffbb2fefe59bb (good)
+;; QUESTION SECTION:
+;en.				IN	A
+
+;; Query time: 56 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 59
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 43053
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f894789567a640ca114c3f32c5884265b2a (good)
+;; QUESTION SECTION:
+;ftp.				IN	A
+
+;; Query time: 56 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 60
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 34113
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f890f447017640ca114c2eb04aac68e18bd (good)
+;; QUESTION SECTION:
+;ssh.				IN	A
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 60
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 33691
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f899984e39a640ca1147e97cd217936fa2d (good)
+;; QUESTION SECTION:
+;login.				CH	TXT
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 62
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 62658
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f89caa7abba640ca114f8d0c860ebd6d733 (good)
+;; QUESTION SECTION:
+;fr.				IN	A
+
+;; Query time: 53 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 59
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 5092
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f893c5309d7640ca11418dbbaa8faac93bc (good)
+;; QUESTION SECTION:
+;nl.				IN	A
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 59
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 34970
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1d8dc77a70776f8995ec9eed640ca1146292bed66ed9921d (good)
+;; QUESTION SECTION:
+;hostname.bind.			IN	A
+
+;; Query time: 50 msec
+;; SERVER: 18.202.130.238#53(18.202.130.238) (UDP)
+;; WHEN: Sat Mar 11 16:41:08 CET 2023
+;; MSG SIZE  rcvd: 70
+

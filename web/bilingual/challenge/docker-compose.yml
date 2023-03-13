@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  redis:
+    build:
+      context: .
+      dockerfile: ./redis.Dockerfile
+  web:
+    environment:
+      # The value of the FLAG variable has been removed from your local copy.
+      - FLAG="<REMOVED FROM LOCAL COPPY>"
+      # The value of the COOKIE_SECRET variable is different on your local copy
+      - COOKIE_SECRET=fakevaluefakevaluefakevalue
+      - LANGUAGES=French=french,German=german
+      - HOSTS=french=french:9000,german=german:9000,redis=redis:6379
+    build: 
+      context: .
+      dockerfile: ./web.Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - redis
+  german:
+    build:
+      context: .
+      dockerfile: ./translationService.Dockerfile
+    environment:
+      - LANGUAGE=de
+  french:
+    build:
+      context: .
+      dockerfile: ./translationService.Dockerfile
+    environment:
+      - LANGUAGE=fr
